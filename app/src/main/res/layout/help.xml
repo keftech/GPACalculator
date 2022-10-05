@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true"
+android:scrollbars="none">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <TextView
+        style="@style/TextView.long"
+        android:textStyle="bold"
+        android:text="This app uses the grading point system as shown below."/>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Exam Score"
+                style="@style/TextView.small.wrap.lighttext"/>
+            <TextView
+                android:text="Grade Point"
+                style="@style/TextView.small.wrap.lighttext"/>
+            <TextView
+                android:text="Grade Letter"
+                style="@style/TextView.small.wrap.lighttext"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="70 — 100"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="5.0"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="A"
+                style="@style/TextView.small.wrap"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="60 — 69"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="4.0"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="B"
+                style="@style/TextView.small.wrap"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="50 — 59"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="3.0"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="C"
+                style="@style/TextView.small.wrap"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="45 — 49"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="2.0"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="D"
+                style="@style/TextView.small.wrap"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="40 — 44"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="1.0"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="E"
+                style="@style/TextView.small.wrap"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="0 — 39"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="0.0"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="F"
+                style="@style/TextView.small.wrap"/>
+        </TableRow>
+    </TableLayout>
+    <TextView
+        style="@style/TextView.long"
+        android:textStyle="bold"
+        android:text="Degree Classification:"/>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="4.5 — 5.0"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="First Class"
+                style="@style/TextView.small.wrap"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="3.5 — 4.49"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="Second Class Upper"
+                style="@style/TextView.small.wrap"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="2.5 — 3.49"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="Second Class Lower"
+                style="@style/TextView.small.wrap"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="1.0 — 2.49"
+                style="@style/TextView.small.wrap"/>
+            <TextView
+                android:text="Third Class"
+                style="@style/TextView.small.wrap"/>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        style="@style/TextView.long"
+        android:textStyle="bold"
+        android:text="How GPA is calculated:"/>
+    <TextView
+        android:id="@+id/gpHowBox"
+        style="@style/TextView.long"/>
+</LinearLayout>
+</ScrollView>

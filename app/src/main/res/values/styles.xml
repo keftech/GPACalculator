@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppTheme" parent="@style/AppTheme.Base">
+	</style>
+	<style name="AppTheme.Base" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/Primary</item>
+		<item name="colorPrimaryDark">@color/PrimaryDark</item>
+		<item name="colorAccent">@color/Accent</item>
+		<item name="android:windowBackground">@color/LighterBlue</item>
+    </style>
+	
+	<style name="EditText">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:minHeight">35dp</item>
+		<item name="android:minWidth">80dp</item>
+		<item name="android:background">@color/LightRed</item>
+		<item name="android:hint">0</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">#1C1B2E</item>
+		<item name="android:textColorHint">#929292</item>
+		<item name="android:inputType">number</item>
+		<item name="android:maxLines">1</item>
+		<item name="android:maxLength">3</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:padding">8dp</item>
+		<item name="android:gravity">center</item>
+	</style>
+	
+	<style name="EditText.2nd">
+		<item name="android:layout_marginRight">10dp</item>
+	</style>
+	
+	<style name="EditText.wide">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:gravity">center_vertical</item>
+	</style>
+	
+	<style name="EditText.bold">
+		<item name="android:maxLength">10</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:inputType">text</item>
+		<item name="android:background">@color/LighterBlue</item>
+	</style>
+	
+	<style name="EditText.bold.big">
+		<item name="android:minHeight">42dp</item>
+		<item name="android:textSize">18sp</item>
+	</style>
+	
+	<style name="EditText.bold.color">
+		<item name="android:textColor">#5B2925</item>
+	</style>
+	
+	<style name="Button">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:minHeight">35dp</item>
+		<item name="android:minWidth">75dp</item>
+		<item name="android:background">@color/LightBlue</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:padding">18dp</item>
+		<item name="android:layout_marginBottom">10dp</item>
+	</style>
+	
+	<style name="FloatButton">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:minHeight">50dp</item>
+		<item name="android:minWidth">50dp</item>
+		<item name="android:background">@drawable/circle_back</item>
+		<item name="android:textSize">24sp</item>
+		<item name="android:textColor">@color/Accent</item>
+		<item name="android:padding">10dp</item>
+		<item name="android:layout_centerInParent">true</item>
+		<item name="android:visibility">invisible</item>
+	</style>
+	
+	<style name="TextView">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginBottom">5dp</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">#1C1B2E</item>
+	</style>
+	<style name="TextView.small">
+		<item name="android:minHeight">42dp</item>
+		<item name="android:background">@color/LighterBlue</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:gravity">center</item>
+	</style>
+	<style name="TextView.small.wrap">
+		<item name="android:minHeight">18dp</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:textSize">13sp</item>
+		<item name="android:padding">6dp</item>
+		<item name="android:background">@color/LightRed</item>
+		<item name="android:minWidth">80dp</item>
+		<item name="android:layout_margin">1dp</item>
+	</style>
+	<style name="TextView.small.wrap.lighttext">
+		<item name="android:background">#69130E</item>
+		<item name="android:textColor">@color/LighterBlue</item>
+	</style>
+	<style name="TextView.long">
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+</resources>

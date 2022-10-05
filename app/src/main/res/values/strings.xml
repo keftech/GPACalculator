@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPA Calculator</string>
+	
+	<string name="gpHowText">
+		<![CDATA[
+			CU = Course Unit<br/>
+			GP = Grade Point<br/>
+			QP = Quality Point<br/>
+			GPA = Grade Point Aggregate<br/><br/>
+			QP = GP×CU<br/>
+			GPA = total QP/total CU <br/>(you get the total by adding up together for all courses offered)
+			<br/><br/>
+			The Cumulative GPA (CGPA) is the total GPA for more than one semester or session.
+        ]]>
+	</string>
+</resources>
